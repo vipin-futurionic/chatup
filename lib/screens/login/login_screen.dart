@@ -77,6 +77,11 @@ class _LoginScreenState extends State<LoginScreen> {
                 flex: 2,
                 child: Container(),
               ),
+              Image.asset(
+                "assets/logo.png",
+                color: Colors.white,
+                height: 110,
+              ),
               const SizedBox(
                 height: 64,
               ),
